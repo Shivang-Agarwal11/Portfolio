@@ -26,7 +26,7 @@ const About = () => {
           <p>Java</p>
         </div>
         <div className="skill-item">
-          <img src={require("../assets/mongodb.jpeg")} alt="MongoDB" />
+          <img src={require("../assets/mongodb.png")} alt="MongoDB" />
           <p>MongoDB</p>
         </div>
         <div className="skill-item">
@@ -38,7 +38,7 @@ const About = () => {
           <p>HTML & CSS</p>
         </div>
         <div className="skill-item">
-          <img src={require("../assets/AI.jpeg")} alt="AI" />
+          <img src={require("../assets/AI.png")} alt="AI" />
           <p>AI</p>
         </div>
         {/* Add other skill items similarly */}

@@ -15,9 +15,6 @@ const Home = () => {
       <div className="hero-image">
         <img src={require('../../assets/p3.png')} alt="Shivang" />
         <div className="social-icons">
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} size='lg' />
-          </a>
           <a href="https://www.linkedin.com/in/shivang-agarwal-9063971b8" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} size="lg" />
           </a>

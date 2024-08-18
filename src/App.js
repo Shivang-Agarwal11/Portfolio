@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import Home from "./components/Home/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 import "./style.css";
 import Navbar from "./components/Navbar/Navbar";
 import Experience from "./components/Experience/Experience";
@@ -43,9 +43,9 @@ const App = () => {
       <section id="experience" className="fade-in">
         <Experience />
       </section>
-      {/* <section id="contact" className="fade-in">
+      <section id="contact" className="fade-in">
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };
