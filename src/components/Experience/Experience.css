@@ -1,0 +1,198 @@
+/* src/Timeline.css */
+
+/* Timeline container */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Timeline line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #f7c52f; /* Line color */
+    top: 0;
+    bottom: 0;
+    left: 20px; /* Adjust line position for year */
+    transition: left 0.3s ease;
+}
+
+/* Timeline item */
+.timeline-item {
+    position: relative;
+    margin-bottom: 60px; /* Increased margin for more gap between dots */
+    padding-left: 80px; /* Space for the dot and content */
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Animation for visible timeline items */
+.timeline-item.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Timeline year */
+.timeline-year {
+    position: absolute;
+    left: -70px; /* Position year to the left of the dot */
+    font-size: 16px;
+    color: #f7c52f; /* Color for year */
+    font-weight: bold;
+    top: 0;
+    transition: left 0.3s ease;
+}
+
+/* Timeline dot */
+.timeline-dot {
+    position: absolute;
+    left: 20px; /* Position dot on the line */
+    width: 20px; /* Increased dot size */
+    height: 20px; /* Increased dot size */
+    background-color: #f7c52f; /* Dot color */
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(247, 197, 47, 0.8); /* Glowing effect */
+    transform: translateX(-50%);
+    top: 50%;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Timeline content */
+.timeline-content {
+    background-color: #2a2929;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 40px; /* Space between dot and content */
+    transition: margin-left 0.3s ease, background-color 0.3s ease;
+}
+
+/* Content headings */
+.timeline-content h3 {
+    margin: 0;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+}
+
+.timeline-content h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #f7c52f; /* Highlight color */
+    transition: font-size 0.3s ease;
+}
+
+/* Duration text */
+.timeline-duration {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Content paragraphs */
+.timeline-content p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments for tablets and smaller screens */
+@media (max-width: 1024px) {
+    .timeline::before {
+        left: 10px; /* Adjust line position for smaller screens */
+    }
+
+    .timeline-item {
+        padding-left: 70px;
+        margin-bottom: 50px; /* Adjust gap */
+    }
+
+    .timeline-content {
+        margin-left: 30px; /* Adjust spacing for smaller screens */
+    }
+
+    .timeline-year {
+        left: -50px; /* Adjust for smaller screens */
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 5px; /* Adjust line position for mobile */
+    }
+
+    .timeline-item {
+        padding-left: 60px;
+        margin-bottom: 40px; /* Adjust gap */
+    }
+
+    .timeline-content {
+        margin-left: 25px;
+        padding: 15px; /* Reduce padding */
+    }
+
+    .timeline-year {
+        left: -40px; /* Adjust for mobile screens */
+    }
+
+    .timeline-content h3 {
+        font-size: 18px; /* Smaller font size */
+    }
+
+    .timeline-content h4 {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .timeline-duration {
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .timeline-content p {
+        font-size: 12px; /* Smaller font size */
+    }
+}
+
+/* Hide the timeline year on very small screens */
+@media (max-width: 480px) {
+    .timeline::before {
+        left: 0; /* Line adjustment for very small screens */
+    }
+
+    .timeline-item {
+        padding-left: 50px;
+        margin-bottom: 30px; /* Adjust gap */
+    }
+
+    .timeline-content {
+        margin-left: 15px; /* Further adjust spacing */
+        padding: 10px; /* Further reduce padding */
+    }
+
+    .timeline-year {
+        display: none; /* Hide year on very small screens */
+    }
+
+    .timeline-content h3 {
+        font-size: 16px; /* Smaller font size */
+    }
+
+    .timeline-content h4 {
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .timeline-duration {
+        font-size: 10px; /* Smaller font size */
+    }
+
+    .timeline-content p {
+        font-size: 10px; /* Smaller font size */
+    }
+}
+    

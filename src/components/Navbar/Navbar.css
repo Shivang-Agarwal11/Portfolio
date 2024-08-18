@@ -1,0 +1,96 @@
+/* src/Navbar.css */
+
+/* Base styles for larger screens */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #f7c52f;
+    color: #1c1c1c;
+    border-radius: 5px;
+  }
+  
+  /* Hamburger Menu Icon */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  /* Responsive adjustments for tablets and smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      justify-content: space-between;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #1c1c1c;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .navbar ul.show {
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
+  /* Further adjustments for very small screens */
+  @media (max-width: 480px) {
+    .navbar ul li a {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
