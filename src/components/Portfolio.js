@@ -26,7 +26,7 @@ const Portfolio = () => {
         </a>
         {/* Add other portfolio items similarly */}
       </div>
-      <button>View More</button>
+      {/* <button>View More</button> */}
     </div>
   );
 };
