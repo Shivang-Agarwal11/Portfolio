@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Shivang Agarwal's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio repository! Discover my work, projects, skills, and achievements at [shivfolio.netlify.app](https://shivfolio.netlify.app/).
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+Hi, I'm Shivang Agarwal, a passionate developer with expertise in DevOps, web development, and machine learning. Currently, I'm pursuing a Master's degree from BITS Pilani through the WILP program and working as a developer at SAP. I aim to create impactful solutions that solve real-world problems.
 
-### `npm start`
+## Work Experience
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Scholar at SAP
+- **Duration**: August 2023 – Present
+- Working with ABAP and UI5 technologies to deliver innovative solutions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### DevOps Intern at Nagarro
+- **Duration**: March 2023 – July 2023
+- Built and deployed pipelines using Jenkins, Ansible, Terraform, and Kubernetes.
+- Worked with cloud platforms like Azure and AWS, deploying Docker images to EC2 instances using Kubernetes.
 
-### `npm test`
+## Projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### [FareCalc](http://farecalc.pythonanywhere.com/)
+- **Technologies**: Python, Django, HTML/CSS, Pandas, NumPy, scikit-learn
+- Predicts flight fares based on various parameters like location, time, date, and flight type.
+- Focused on modular Python code and independent modules.
+- [Source Code](https://github.com/Shivang-Agarwal11/django3-flightfarepro)
 
-### `npm run build`
+### [MailAutomate](https://github.com/Shivang-Agarwal11/Mail-Auto)
+- **Technologies**: Python, Django, Pandas, SMTP
+- Streamlined bulk email sending with attachments, solving user challenges effectively.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### [MyCard](https://mycardeco.netlify.app/)
+- **Technologies**: React.js, Node.js, Express.js
+- Developed a comprehensive profile management system as a final-year project.
+- Stores details such as education, finances, and medical history.
+- [Source Code](https://github.com/Shivang-Agarwal11/MyCard-frontend)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Skills
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Languages**: Java, Python, JavaScript, SQL, ABAP
+- **Frameworks**: React.js, Node.js, Django, UI5
+- **Tools**: Docker, Jenkins, Ansible, Kubernetes, Git, Postman
+- **Machine Learning Libraries**: TensorFlow, scikit-learn, Pandas, NumPy
 
-### `npm run eject`
+## Achievements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Amazon ML Summer School 2022**: Selected participant.
+- **AWS DeepRacer India**: Top 100 winners, semifinalist.
+- **AI Programming with Python Nanodegree**: Scholarship by AWS and Udacity.
+- **Analytics Vidhya Job-a-thon**: Ranked 906th out of 8235 participants.
+- **Gantavya 2019**: Secured 2nd position in Autonomous Bot event.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Certifications
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Foundations: Data, Data, Everywhere** (Google, Coursera)
+- **STEM Connect Virtual Experience Program** (Deloitte, Forage)
+- **Introduction to SQL** (Coursera)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Public Profiles
 
-## Learn More
+- **GitHub**: [Shivang Agarwal](https://github.com/Shivang-Agarwal11)
+- **LeetCode**: [Shivang11](https://leetcode.com/Shivang11/)
+- **CodeChef**: [shivang_1105](https://www.codechef.com/users/shivang_1105)
+- **Kaggle**: [shivang11agarwal](https://www.kaggle.com/shivang11agarwal)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Email**: [shivangagarwal11.sa@gmail.com](mailto:shivangagarwal11.sa@gmail.com)
+- **LinkedIn**: [Shivang Agarwal](https://www.linkedin.com/in/shivang-agarwal-9063971b8/)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my portfolio repository! Feel free to reach out or explore my projects.
