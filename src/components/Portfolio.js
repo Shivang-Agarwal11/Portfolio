@@ -1,32 +1,45 @@
-// src/Portfolio.js
 import React from "react";
+import "./Portfolio.css"; // Ensure you have a corresponding CSS file for styling
 
 const Portfolio = () => {
+  // Portfolio items array for reusability
+  const portfolioItems = [
+    {
+      title: "FareCalc",
+      description: "A simple tool to predict flight fares",
+      image: require("../assets/flight_fare.jpeg"),
+      link: "https://github.com/Shivang-Agarwal11/django3-flightfarepro",
+    },
+    {
+      title: "MailAutomate",
+      description: "A simple tool to send custom mails in bulk by reading a CSV.",
+      image: require("../assets/email.png"),
+      link: "https://github.com/Shivang-Agarwal11/Mail-Automation",
+    },
+    {
+      title: "Smart Home",
+      description: "A smart home device management service.",
+      image: require("../assets/smart.png"),
+      link: "https://github.com/Shivang-Agarwal11/smart-house-device-management",
+    },
+  ];
+
   return (
     <div className="portfolio container" id="portfolio">
-      <h1>Portfolio</h1>
+      <h1 style={{color:"white"}}>Projects</h1>
       <div className="portfolio-grid">
-        <a href="https://github.com/Shivang-Agarwal11/django3-flightfarepro" target="_blank">
-          <div className="portfolio-item">
-            <img src={require("../assets/flight_fare.jpeg")} alt="FareCalc" />
-            <div className="overlay">
-              <h3>FareCalc</h3>
-              <p>A simple tool to predict flight fares</p>
+        {portfolioItems.map((item, index) => (
+          <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
+            <div className="portfolio-item">
+              <img src={item.image} alt={item.title} className="portfolio-image" />
+              <div className="overlay">
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
             </div>
-          </div>
-        </a>
-        <a href="https://github.com/Shivang-Agarwal11/Mail-Automation" target="_blank">
-        <div className="portfolio-item">
-          <img src={require("../assets/email.png")} alt="Email Automation" />
-          <div className="overlay">
-            <h3>MailAutomate</h3>
-            <p>A simple tool to send custom mails in bulk by reading a CSV.</p>
-          </div>
-        </div>
-        </a>
-        {/* Add other portfolio items similarly */}
+          </a>
+        ))}
       </div>
-      {/* <button>View More</button> */}
     </div>
   );
 };
