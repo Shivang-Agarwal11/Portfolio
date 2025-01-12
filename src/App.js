@@ -5,8 +5,8 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact/Contact";
 import "./style.css";
-import Navbar from "./components/Navbar/Navbar";
 import Experience from "./components/Experience/Experience";
+import LeetCode from "./components/Leetcode/Leetcode";
 
 const App = () => {
   useEffect(() => {
@@ -39,6 +39,9 @@ const App = () => {
       </section>
       <section id="portfolio" className="fade-in">
         <Portfolio />
+      </section>
+      <section id="leetcode" className="fade-in">
+        <LeetCode />
       </section>
       <section id="experience" className="fade-in">
         <Experience />
