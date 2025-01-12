@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <section id="home" className="fade-in">
         <Home />
       </section>

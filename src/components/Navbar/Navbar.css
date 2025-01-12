@@ -7,7 +7,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
     padding: 20px 0;
     z-index: 1000; /* Ensure the navbar stays on top */
   }
@@ -93,4 +93,49 @@
       padding: 8px 16px;
     }
   }
-  
+  /* Default light mode styles */
+body.light {
+  background-color: white;
+  color: black;
+}
+
+.navbar.light {
+  background-color: #f8f8f8;
+}
+
+.navbar.light a {
+  color: black;
+}
+
+.navbar.light .hamburger div {
+  background-color: black;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #333;
+  color: white;
+}
+
+.navbar.dark {
+  background-color: #444;
+}
+
+.navbar.dark a {
+  color: white;
+}
+
+.navbar.dark .hamburger div {
+  background-color: white;
+}
+
+.theme-toggle {
+  background: none;
+  color: inherit;
+  border: 1px solid currentColor;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+/* Additional styling for mobile view and other elements can be added as needed */

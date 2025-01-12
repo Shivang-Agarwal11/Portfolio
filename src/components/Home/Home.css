@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 100px 10%;  /* Padding adjusted for larger screens */
-    background-color: #1c1c1c;
+    /* background-color: #1c1c1c; */
     color: white;
     overflow: hidden; /* Ensure that animations do not cause overflow issues */
 }
