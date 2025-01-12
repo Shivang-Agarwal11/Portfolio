@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact/Contact";
 import "./style.css";
+import Navbar from "./components/Navbar/Navbar";
 import Experience from "./components/Experience/Experience";
 import LeetCode from "./components/Leetcode/Leetcode";
 
