@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className="hero container" id="home">
       <div className="hero-content">
-        <h1>I'M Shivang Agarwal!!</h1>
+        <h1>I'm Shivang Agarwal!!</h1>
         <p>Software Developer | ML & AI Enthusiast | Polymath</p>
         <button style={{marginRight: "10px"}} onClick={handleDownloadResume}>Download Resume</button>
         <button onClick={handleViewResume}>View Resume</button>
