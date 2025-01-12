@@ -32,7 +32,7 @@ const Experience = () => {
 
   return (
     <div className="portfolio container" id="experience">
-      <h1>Experience</h1>
+      <h1 style={{color:"white"}}>Experience</h1>
       <div className="timeline">
         {experiences.map((item, index) => (
           <div className="timeline-item" key={index} ref={el => timelineItemsRef.current[index] = el}>

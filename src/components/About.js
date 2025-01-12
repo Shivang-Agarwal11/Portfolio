@@ -35,7 +35,7 @@ const About = () => {
         </div>
         <div className="skill-item">
           <img src={require("../assets/html.png")} alt="HTML & CSS" />
-          <p>HTML & CSS</p>
+          <p style={{marginTop:"40px"}}>HTML & CSS</p>
         </div>
         <div className="skill-item">
           <img src={require("../assets/AI.png")} alt="AI" />

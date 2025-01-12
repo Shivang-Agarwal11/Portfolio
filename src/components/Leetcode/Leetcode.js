@@ -47,10 +47,15 @@ const LeetCodeStats = () => {
               <h2 style={styles.mainStat}>{stats.totalSolved} / {stats.totalQuestions}</h2>
               <p style={styles.subText}>Total Solved</p>
             </div>
-            <div style={styles.solvedText}>
+            
+            {/* <div style={styles.solvedText}>
               <p style={styles.solvedStatus}>
                 <span style={{ color: "#4CAF50" }}>✔ Solved</span>
               </p>
+            </div> */}
+            <div style={styles.mainCardText}>
+              <h2 style={styles.mainStat}>{stats.acceptanceRate} %</h2>
+              <p style={styles.subText}>Acceptance Rate</p>
             </div>
           </div>
 
@@ -121,7 +126,7 @@ const styles = {
   },
   mainStat: {
     margin: 0,
-    fontSize: "30px",
+    fontSize: "26px",
   },
   subText: {
     margin: 0,
