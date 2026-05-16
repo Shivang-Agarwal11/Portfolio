@@ -1,46 +1,45 @@
-import React from "react";
-import "./Portfolio.css"; // Ensure you have a corresponding CSS file for styling
+import React from 'react';
+import { data } from '../data';
+
+const ArrowIcon = () => (
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="7" y1="17" x2="17" y2="7" />
+    <polyline points="7 7 17 7 17 17" />
+  </svg>
+);
 
 const Portfolio = () => {
-  // Portfolio items array for reusability
-  const portfolioItems = [
-    {
-      title: "FareCalc",
-      description: "A simple tool to predict flight fares",
-      image: require("../assets/flight_fare.jpeg"),
-      link: "https://github.com/Shivang-Agarwal11/django3-flightfarepro",
-    },
-    {
-      title: "MailAutomate",
-      description: "A simple tool to send custom mails in bulk by reading a CSV.",
-      image: require("../assets/email.png"),
-      link: "https://github.com/Shivang-Agarwal11/Mail-Automation",
-    },
-    {
-      title: "Smart Home",
-      description: "A smart home device management service.",
-      image: require("../assets/smart.png"),
-      link: "https://github.com/Shivang-Agarwal11/smart-house-device-management",
-    },
-  ];
-
   return (
-    <div className="portfolio container" id="portfolio">
-      <h1 style={{color:"white"}}>Projects</h1>
-      <div className="portfolio-grid">
-        {portfolioItems.map((item, index) => (
-          <a key={index} href={item.link} target="_blank" rel="noopener noreferrer">
-            <div className="portfolio-item">
-              <img src={item.image} alt={item.title} className="portfolio-image" />
-              <div className="overlay">
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+    <section id="projects" className="section section-alt2">
+      <div className="container">
+        <p className="section-label">selected work</p>
+        <h2 className="section-heading">Projects</h2>
+        <div className="projects-grid">
+          {data.projects.map((proj, i) => (
+            <a
+              key={i}
+              href={proj.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card"
+            >
+              <div className="project-card-header">
+                <span className="project-title">{proj.title}</span>
+                <span className="project-link-icon">
+                  <ArrowIcon />
+                </span>
               </div>
-            </div>
-          </a>
-        ))}
+              <p className="project-desc">{proj.description}</p>
+              <div className="project-tech">
+                {proj.techStack.split(',').map(t => (
+                  <span key={t} className="tech-chip">{t.trim()}</span>
+                ))}
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

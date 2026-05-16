@@ -1,55 +1,30 @@
-// src/App.js
 import React, { useEffect } from "react";
-import Home from "./components/Home/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact/Contact";
-import "./style.css";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
 import Experience from "./components/Experience/Experience";
-import LeetCode from "./components/Leetcode/Leetcode";
+import Portfolio from "./components/Portfolio";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
+import "./index.css";
 
 const App = () => {
   useEffect(() => {
-    const handleScroll = () => {
-      const elements = document.querySelectorAll(".fade-in");
-      elements.forEach((element) => {
-        const { top } = element.getBoundingClientRect();
-        if (top < window.innerHeight) {
-          element.classList.add("visible");
-        } else {
-          element.classList.remove("visible");
-        }
-      });
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial check in case elements are already in view
-
-    return () => window.removeEventListener("scroll", handleScroll);
+    document.documentElement.setAttribute('data-theme', 'dark');
   }, []);
 
   return (
     <div>
       <Navbar />
-      <section id="home" className="fade-in">
-        <Home />
-      </section>
-      <section id="about" className="fade-in">
-        <About />
-      </section>
-      <section id="portfolio" className="fade-in">
-        <Portfolio />
-      </section>
-      <section id="leetcode" className="fade-in">
-        <LeetCode />
-      </section>
-      <section id="experience" className="fade-in">
-        <Experience />
-      </section>
-      <section id="contact" className="fade-in">
-        <Contact />
-      </section>
+      <Home />
+      <Experience />
+      <Portfolio />
+      <Education />
+      <Contact />
+      <footer className="footer">
+        <p>
+          Built with precision by <span className="accent">Shivang Agarwal</span> &mdash; {new Date().getFullYear()}
+        </p>
+      </footer>
     </div>
   );
 };
