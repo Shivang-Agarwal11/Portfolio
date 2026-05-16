@@ -1,73 +1,82 @@
-# Shivang Agarwal's Portfolio
+# Shivang Agarwal — Portfolio
 
-Welcome to my personal portfolio repository! Discover my work, projects, skills, and achievements at [shivfolio.netlify.app](https://shivfolio.netlify.app/).
+> Application Engineer & AI Developer at SAP · M.Tech @ BITS Pilani
+>
+> Live at [shivfolio.netlify.app](https://shivfolio.netlify.app/)
 
-## About Me
+---
 
-Hi, I'm Shivang Agarwal, a passionate developer with expertise in DevOps, web development, and machine learning. Currently, I'm pursuing a Master's degree from BITS Pilani through the WILP program and working as a developer at SAP. I aim to create impactful solutions that solve real-world problems.
+## About
 
-## Work Experience
+I build AI systems that ship to production — LLM orchestration pipelines, agentic reflection architectures, and RAG on SAP BTP. Currently working as an Application Engineer in the Intelligent Product Recommendation team at SAP, where I also serve as a Forward Deployed AI Developer embedded with enterprise customers.
 
-### Scholar at SAP
-- **Duration**: August 2023 – Present
-- Working with ABAP and UI5 technologies to deliver innovative solutions.
+---
 
-### DevOps Intern at Nagarro
-- **Duration**: March 2023 – July 2023
-- Built and deployed pipelines using Jenkins, Ansible, Terraform, and Kubernetes.
-- Worked with cloud platforms like Azure and AWS, deploying Docker images to EC2 instances using Kubernetes.
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| **AI / ML** | Agentic AI, RAG, SAP AI Core, HANA Vector DB, TensorFlow, autogen |
+| **Backend** | Java CAP, Python, Node.js, Express |
+| **Frontend** | React, SAP UI5, TypeScript |
+| **Cloud** | SAP BTP, AWS, Docker, Kubernetes |
+| **DevOps** | Jenkins, Ansible, Terraform, GitHub Actions |
+| **AI Tools** | Claude Code, GitHub Copilot, Cursor, Cline |
+
+---
+
+## Experience
+
+### Application Engineer — SAP *(Jun 2024 – Present)*
+- Forward Deployed AI Developer — embedded with enterprise customers to identify AI use cases and drive delivery
+- Implemented Agentic AI Reflection Design Pattern using autogen in co-innovation with Microsoft — reduced tender analysis from weeks to hours
+- Built RAG pipelines using Python, SAP AI Core, and HANA Vector DB
+- Implemented secure LLM orchestration with data masking for document processing
+- Filed a patent in AI (approved under filing status)
+- Delivered Tech Talk and Demo Pod at SAP DCOM
+
+### Scholar (Developer in JIT Team) — SAP *(Sep 2023 – Apr 2024)*
+- Built SAP UI5 applications and OData V4 mock servers
+- Worked with ABAP, BOPF, and archiving tasks
+
+### DevOps Trainee — Nagarro *(Mar 2023 – Jul 2023)*
+- Built CI/CD pipelines using Jenkins, Ansible, Terraform, Docker, Kubernetes on AWS
+
+---
 
 ## Projects
 
-### [FareCalc](http://farecalc.pythonanywhere.com/)
-- **Technologies**: Python, Django, HTML/CSS, Pandas, NumPy, scikit-learn
-- Predicts flight fares based on various parameters like location, time, date, and flight type.
-- Focused on modular Python code and independent modules.
-- [Source Code](https://github.com/Shivang-Agarwal11/django3-flightfarepro)
+| Project | Stack | Link |
+|---|---|---|
+| **Claude Skills Dashboard** | React, TypeScript, Node.js, Express | [GitHub](https://github.com/Shivang-Agarwal11/claude-skills-dashboard) |
+| **DANA Tool** | Python, Ollama, Node.js, React, MongoDB | [GitHub](https://github.com/Shivang-Agarwal11/DANA-Tool) |
+| **Rent Management** | Node.js, React, MongoDB | [GitHub](https://github.com/Shivang-Agarwal11/Rent-Management) |
+| **Smart House Device Management** | Node.js, React, MongoDB | [GitHub](https://github.com/Shivang-Agarwal11/smart-house-device-management) |
+| **MailAutomate** | Django, Python, SMTP | [GitHub](https://github.com/Shivang-Agarwal11/Mail-Automation) |
 
-### [MailAutomate](https://github.com/Shivang-Agarwal11/Mail-Auto)
-- **Technologies**: Python, Django, Pandas, SMTP
-- Streamlined bulk email sending with attachments, solving user challenges effectively.
+---
 
-### [MyCard](https://mycardeco.netlify.app/)
-- **Technologies**: React.js, Node.js, Express.js
-- Developed a comprehensive profile management system as a final-year project.
-- Stores details such as education, finances, and medical history.
-- [Source Code](https://github.com/Shivang-Agarwal11/MyCard-frontend)
+## Education
 
-## Skills
+**M.Tech in Software Engineering** — BITS Pilani *(Aug 2023 – Jul 2025)*
+CGPA: 7.93
 
-- **Languages**: Java, Python, JavaScript, SQL, ABAP
-- **Frameworks**: React.js, Node.js, Django, UI5
-- **Tools**: Docker, Jenkins, Ansible, Kubernetes, Git, Postman
-- **Machine Learning Libraries**: TensorFlow, scikit-learn, Pandas, NumPy
+---
 
 ## Achievements
 
-- **Amazon ML Summer School 2022**: Selected participant.
-- **AWS DeepRacer India**: Top 100 winners, semifinalist.
-- **AI Programming with Python Nanodegree**: Scholarship by AWS and Udacity.
-- **Analytics Vidhya Job-a-thon**: Ranked 906th out of 8235 participants.
-- **Gantavya 2019**: Secured 2nd position in Autonomous Bot event.
+- Filed a patent in AI — approved under filing status
+- Multiple-time winner of SAP Team Excellence Awards
+- Delivered Tech Talk at SAP DCOM
+- Showcased Demo Pod at SAP DCOM
+- 3rd position in "Code Generation for MDO" at Innvent (SAP Scholar Hackathon)
+- AI Programming with Python Nanodegree — AWS & Udacity
+- Amazon ML Summer School 2022
 
-## Certifications
-
-- **Foundations: Data, Data, Everywhere** (Google, Coursera)
-- **STEM Connect Virtual Experience Program** (Deloitte, Forage)
-- **Introduction to SQL** (Coursera)
-
-## Public Profiles
-
-- **GitHub**: [Shivang Agarwal](https://github.com/Shivang-Agarwal11)
-- **LeetCode**: [Shivang11](https://leetcode.com/Shivang11/)
-- **CodeChef**: [shivang_1105](https://www.codechef.com/users/shivang_1105)
-- **Kaggle**: [shivang11agarwal](https://www.kaggle.com/shivang11agarwal)
+---
 
 ## Contact
 
 - **Email**: [shivangagarwal11.sa@gmail.com](mailto:shivangagarwal11.sa@gmail.com)
-- **LinkedIn**: [Shivang Agarwal](https://www.linkedin.com/in/shivang-agarwal-9063971b8/)
-
----
-
-Thank you for visiting my portfolio repository! Feel free to reach out or explore my projects.
+- **LinkedIn**: [shivang-agarwal-11](https://www.linkedin.com/in/shivang-agarwal-11/)
+- **GitHub**: [Shivang-Agarwal11](https://github.com/Shivang-Agarwal11)
