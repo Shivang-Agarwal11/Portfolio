@@ -106,6 +106,7 @@ export const data = {
         },
     ],
     achievements: [
+        "Winner of the IPE AI Impact Award — selected among 70+ exceptional submissions for demonstrating the mindset shift required to embrace AI and deliver tangible, positive impact for IPE and customers.",
         "Filed a patent in AI — approved under filing status.",
         "Multiple-time winner of SAP Team Excellence Awards.",
         "Delivered a Tech Talk at SAP DCOM — presented AI innovation to a large internal audience.",
